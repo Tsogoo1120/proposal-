@@ -18,7 +18,7 @@
                 Ажилчдын сэтгэл ханамж, дотоод тогтвортой байдал, багийн уялдаа холбоо болон бүтээмжийг нэмэгдүүлэх зорилготой шинжлэх ухааны үндэслэлт хандлага.
               </p>
 
-              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-4">
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
                 <div
                   v-for="(feat, i) in features"
                   :key="i"
@@ -28,6 +28,14 @@
                   <span class="text-sm font-medium leading-tight">{{ feat.text }}</span>
                 </div>
               </div>
+
+              <a
+                href="../index.html"
+                class="inline-flex items-center gap-2.5 px-8 py-4 rounded-xl bg-primary text-on-primary font-headline text-lg font-bold hover:bg-primary-dim active:opacity-80 transition-all duration-200 shadow-md hover:shadow-lg"
+              >
+                <span class="material-symbols-outlined text-[22px]">edit_note</span>
+                Тест өгөх
+              </a>
 
             </div>
           </Transition>
