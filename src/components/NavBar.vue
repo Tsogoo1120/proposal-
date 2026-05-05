@@ -22,13 +22,7 @@
         >
           {{ link.label }}
         </a>
-        <a
-          href="../index.html"
-          class="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-on-primary font-headline text-base font-semibold hover:bg-primary-dim active:opacity-80 transition-all duration-200 shadow-sm hover:shadow-md"
-        >
-          <span class="material-symbols-outlined text-[20px]">edit_note</span>
-          Тест өгөх
-        </a>
+
       </div>
 
       <!-- Mobile hamburger -->
@@ -60,14 +54,8 @@
           >
             {{ link.label }}
           </a>
-          <a
-            href="../index.html"
-            class="flex items-center gap-2 px-4 py-3 rounded-xl bg-primary text-on-primary font-headline text-base font-semibold hover:bg-primary-dim transition-all duration-200"
-            @click="menuOpen = false"
+
           >
-            <span class="material-symbols-outlined text-[20px]">edit_note</span>
-            Тест өгөх
-          </a>
         </div>
       </div>
     </Transition>
